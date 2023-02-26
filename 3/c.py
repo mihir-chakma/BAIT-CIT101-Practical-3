@@ -2,10 +2,11 @@
 area = float(input("Enter the area of the room in square feet: "))
 
 # Calculating the length of a side of the square room by taking square root of the area
-length = round((area ** 0.5), 2)
+# length = round((area ** 0.5), 2)
 
+length = area ** 0.5
 # Displaying the result to the user
-print(f"The length of each side of the square room is {length} feet.")
+print(f"The length of each side of the square room is {length:.2f} feet.")
 
 
 """

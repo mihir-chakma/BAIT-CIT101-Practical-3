@@ -4,7 +4,7 @@ rate = float(input("Enter the annual interest rate (%): ")) / 100
 period = float(input("Enter the period (in years): "))
 
 # Calculating the simple interest
-interest = (principal * rate * period)
+interest = principal * rate * period
 
 # Displaying the result to the user
 print(f"The simple interest is {interest:.2f} dollars.")

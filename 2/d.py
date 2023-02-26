@@ -7,5 +7,6 @@ So for a square with side length 2.65 cm:
 
 side_length = 2.65
 area = side_length**2
-print(f"The area of the square is {area:.2f} cm2")
+
+print(f"The area of the square is {area:.2f} cm\u00B2")
 
